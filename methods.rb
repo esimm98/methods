@@ -10,7 +10,9 @@ module Methods
 	# * weekday  - true only if it is a weekday
 	# * vacation - true only if the student is on vacation
 	#
-	# TODO - write sleep_in?
+	def sleep_in?(weekday, vacation)
+		!weekday || vacation
+	end
 
 	# monkey_trouble?
 	#
