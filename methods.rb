@@ -1,6 +1,5 @@
 module Methods
 	
-	
 	# sleep_in?
 	#
 	# Students sleep in if it is not a weekday or we're on vacation. 
@@ -40,6 +39,12 @@ module Methods
 	# * a - an integer
 	# * b - an integer
 	#
-	# TODO - write sum_double
+	def sum_double(a, b)
+		if (a != b)
+			a + b
+		else
+			2 * (a + b)
+		end
+	end
 
 end
