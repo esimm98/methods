@@ -47,4 +47,20 @@ module Methods
 		end
 	end
 
+	def diff21(x)
+		if (x > 21)
+			2 * (x - 21)
+		else
+			21 - x
+		end
+	end
+
+	def parrot_trouble?(x)
+			if (x > -1 && x < 7 )
+				2 * (x - 21)
+			else
+				21 - x
+			end
+		end
+
 end
